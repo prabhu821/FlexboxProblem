@@ -1,0 +1,94 @@
+<!doctype html>
+<title>Flexbox_Website_Layout</title>
+<body>
+  <header><h1>Artificial Intelligence (AI)</h1></header>
+  <div id="main">
+    <article><h2>Article on AI</h2>
+        <p><a href="https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/what-is-artificial-intelligence">Artificial Intelligence</a>, or AI, has already received a lot of buzz in the past decade,
+             but it continues to be one of the new technology trends because of its notable effects on how we live, work and play are only in the early stages. 
+           <br> AI is already known for its superiority in image and speech recognition, navigation apps, smartphone personal assistants, ride-sharing apps and so much more.</p>
+        <p>Other than that AI will be used further to analyze interactions to determine underlying connections and insights, to help predict demand for services like hospitals enabling authorities to make better decisions about resource utilization, 
+            and to detect the changing patterns of customer behaviour by analyzing data in near real-time, driving revenues and enhancing personalized experiences.</p>
+        <p>The AI market will grow to a <a href="https://www.marketsandmarkets.com/Market-Reports/artificial-intelligence-market-74851580.html">$190 billion industry by 2025</a> with global spending on cognitive and AI systems reaching over $57 billion in 2023.</p>
+        <p>Artificial Intelligence is a method of making a computer, a computer-controlled robot, or a software think intelligently like the human mind. AI is accomplished by studying the patterns of the human brain and by analyzing the cognitive process. </p>
+        <p>The outcome of these studies develops intelligent software and systems.</p>
+    </article>
+    <nav><h2>Application of AI</h2>
+        <ul>
+            <li>AI in Astronomy</li>
+            <li>AI in Healthcare</li>
+            <li>AI in Gaming</li>
+            <li>AI in Finance</li>
+            <li>AI in Data Security</li>
+            <li>AI in Social Media</li>
+            <li>AI in Travel & Transport</li>
+            <li>AI in Entertainment</li>
+            <li> AI in education</li>
+            <li>AI in Automotive Industry</li>
+            <li> AI in Robotics</li>
+        </ul>
+        <img src="../assets/AI4.png" alt="logo" width="100%" height="40%">
+    </nav>
+    <aside><h2>Image Of AI</h2>
+        <img src="../assets/AI.jpg" alt="AI" width="100%">
+        <img src="../assets/AI3.jpg" alt="AI" width="100%">
+        <img src="../assets/AI2.jpg" alt="AI" width="100%">
+        <img src="../assets/AI1.jpg" alt="AI" width="100%">
+    </aside>
+  </div>
+  <footer><h3>Predicting the future isn't magic, it's artificial intelligence.</h3></footer>
+  <style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+    align-content: center ;
+    background: rgb(255, 71, 120);
+    font-weight: bold;
+    padding: 10px;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #e8e8d4;
+    order: 3;
+  }
+  #main > aside {
+    background: beige;
+    order: 2;
+  }
+  header {
+    background: yellowgreen;
+    font-style: bold;
+    text-align: center;
+    height: 20vh;
+  }
+  footer {
+    background: yellowgreen;
+    text-align: center;
+    font-style: italic;
+    height: 10vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  #main
+  {
+    font-style: italic;
+  }
+</style>
+</body>
